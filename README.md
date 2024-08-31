@@ -31,3 +31,8 @@ Hierarchical clustering is a method of clustering that builds a hierarchal graph
 ### 🧠Cluster Labeling using ChatGPT
 After preprocessing the documents and converting them into document vectors using Doc2Vec, we performed hierarchical clustering on these vectors. We then utilized the large language model, ChatGPT, to assign labels to each cluster. By sorting the data into clusters and providing ChatGPT with the title of each article, we prompted it to generate a general title that represents each cluster. To assess the accuracy and relevance of the cluster labels, we reviewed the results manually.
 
+### 🎯Results
+The difference between the two images is that the first one clusters titles as phrases describing the ideas of the articles, whereas the second one uses common keywords from the articles' titles.
+![](https://github.com/MarcDagher/Document_Clustering/blob/main/Titeled_Clusters.png)
+
+![](https://github.com/MarcDagher/Document_Clustering/blob/main/Keyword_Clusters.png)
